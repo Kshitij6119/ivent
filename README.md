@@ -62,8 +62,9 @@ JWT_SECRET=your_jwt_secret
     cd ims-backend
  ```
 2. Install dependencies:
-   ```bash
-     npm install
+```bash
+ npm install
+```
 
 3.Start the server:
 ```bash
@@ -75,6 +76,20 @@ Server will run on: http://localhost:8080
 ```bash
 http://localhost:8080/api-docs
 ```
+## 📡 API Endpoints
 
+🧑‍💻 Authentication
+
+🔸 POST /register — Create a new user account
+🔸 POST /login — Authenticate and receive JWT token
+
+📦 Product Management (Protected by JWT)
+🆕 POST /products — Add a new product to inventory
+🔁 PUT /products/:id/quantity — Update product quantity
+📃 GET /products?page=1&limit=10 — Retrieve paginated list of products
+ℹ️ Note: For all product routes, include the token in the request header:
+```bash
+Authorization: Bearer <your_jwt_token>
+```
 
 
