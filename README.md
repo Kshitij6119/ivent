@@ -46,29 +46,35 @@ ims-backend/
 │ └── db.js
 ├── swagger.js # Swagger UI setup
 ├── README.md # Project documentation
-└── postman_collection.json # Postman collection for testing
-
+└── postman_collection.json # Postman collection for testing 
+```
 ## 📦 Environment Variables
 Create a .env file in the root directory with:
-
+```bash
 PORT=8080
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/ims_db?retryWrites=true&w=majority
 JWT_SECRET=your_jwt_secret
-
+```
 ## 🚀 Getting Started
  1. Clone the repo
+ ```bash
     git clone <repo-url>
     cd ims-backend
-    
+ ```
 2. Install dependencies:
-npm install
+   ```bash
+     npm install
 
 3.Start the server:
+```bash
 npm start       # for production
+```
 Server will run on: http://localhost:8080
 
 4.Visit Swagger docs at:
+```bash
 http://localhost:8080/api-docs
+```
 
 
 
