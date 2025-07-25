@@ -58,8 +58,7 @@ JWT_SECRET=your_jwt_secret
 ## 🚀 Getting Started
  1. Clone the repo
  ```bash
-    git clone <repo-url>
-    cd ims-backend
+   git clone https://github.com/yourusername/ims-backend.git
  ```
 2. Install dependencies:
 ```bash
@@ -92,4 +91,31 @@ http://localhost:8080/api-docs
 Authorization: Bearer <your_jwt_token>
 ```
 
+## 🔐 Example Auth Request
 
+Register
+```bash
+POST /register
+Content-Type: application/json
+
+{
+  "username": "FImoney",
+  "password": "Money"
+}
+```
+Login
+```bash
+POST /login
+Content-Type: application/json
+
+{
+  "username": "FImoney",
+  "password": "Money"
+}
+```
+Response:
+```bash
+{
+  "access_token": "your_jwt_token"
+}
+```
