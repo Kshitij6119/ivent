@@ -119,3 +119,24 @@ Response:
   "access_token": "your_jwt_token"
 }
 ```
+## 🔐 Example Auth Request
+
+Register
+<img width="1401" height="833" alt="add" src="https://github.com/user-attachments/assets/9e550e48-8cdb-4bad-b31b-a5766b0c9642" />
+
+
+Login
+<img width="1383" height="758" alt="login" src="https://github.com/user-attachments/assets/5e4f285a-9d43-4b01-8cf8-25b9c601d5b7" />
+
+## 📦 Add Product Example
+<img width="1422" height="795" alt="get" src="https://github.com/user-attachments/assets/3579c078-3d3c-46e8-88b4-2b4d8d43defe" />
+
+
+📑 Swagger API Docs
+
+Visit:
+http://localhost:8080/api-docs
+
+🧪 Postman Collection
+
+Import the included postman_collection.json into Postman to test all endpoints.
