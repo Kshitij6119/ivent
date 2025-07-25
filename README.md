@@ -54,7 +54,7 @@ PORT=8080
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/ims_db?retryWrites=true&w=majority
 JWT_SECRET=your_jwt_secret
 
-##🚀 Getting Started
+## 🚀 Getting Started
  1. Clone the repo
     git clone <repo-url>
     cd ims-backend
