@@ -27,6 +27,7 @@ This is a backend REST API built with **Node.js**, **Express.js**, and **MongoDB
 ---
 
 ## 📁 Project Structure
+```bash
 ims-backend/
 ├── app.js # Main server entry point
 ├── .env # Environment variables
