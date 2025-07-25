@@ -47,14 +47,14 @@ ims-backend/
 ├── README.md # Project documentation
 └── postman_collection.json # Postman collection for testing
 
-📦 Environment Variables
+## 📦 Environment Variables
 Create a .env file in the root directory with:
 
 PORT=8080
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/ims_db?retryWrites=true&w=majority
 JWT_SECRET=your_jwt_secret
 
-🚀 Getting Started
+##🚀 Getting Started
  1. Clone the repo
     git clone <repo-url>
     cd ims-backend
