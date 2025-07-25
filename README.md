@@ -132,11 +132,11 @@ Login
 <img width="1422" height="795" alt="get" src="https://github.com/user-attachments/assets/3579c078-3d3c-46e8-88b4-2b4d8d43defe" />
 
 
-📑 Swagger API Docs
+## 📑 Swagger API Docs
 
 Visit:
 http://localhost:8080/api-docs
 
-🧪 Postman Collection
+## 🧪 Postman Collection
 
 Import the included postman_collection.json into Postman to test all endpoints.
